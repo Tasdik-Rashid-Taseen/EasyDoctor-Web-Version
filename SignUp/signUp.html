@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!---<title> Responsive Registration Form | CodingLab </title>--->
+    <link rel="stylesheet" href="signUp.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+    <section class="nav-items">
+        <div class="brand">
+            <h2 class="brand-text">EasyDoctor</h3>
+        </div>
+        <nav>
+            <ul class="nav-list">
+                <li id="home" class="nav-list-item"><a href="../Landing_Page/landing.html">Home</a></li>
+                <div class="dropdown">
+                    <span class="nav-list-item">Products<i class="fa-sharp fa-solid fa-angle-down"></i></span>
+
+                    <div class="dropdown-content">
+                        <p class="dropdown-item"><a href="">Feature 1</a></p>
+                        <p class="dropdown-item"><a href="">Feature 2</a></p>
+                        <p class="dropdown-item"><a href="">Feature 3</a></p>
+                        <p class="dropdown-item"><a href="">Feature 4</a></p>
+                        
+                    </div>
+                </div>
+                <li id="doctor" class="nav-list-item"><a href="#">Doctors</a></li>
+                <li id="home" class="nav-list-item"><a href="../About_Page/about.html">About</a></li>
+                <li id="home" class="nav-list-item"><a href="../Contact_Page/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div>
+            <button class="sign-up-btn"><a href="../SignUp/signUp.html">Sign In</a></button>
+
+        </div>
+    </section>
+    <section class="body">
+        <div class="container">
+            <div class="title">Registration</div>
+            <div class="content">
+              <form action="" method="post">
+                <div class="user-details">
+                  <div class="input-box">
+                    <span class="details">Full Name</span>
+                    <input type="text" placeholder="Enter your name" required name="fullname">
+                  </div>
+                  <div class="input-box">
+                    <span class="details">Username</span>
+                    <input type="text" placeholder="Enter your username" required name="username">
+                  </div>
+                  <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="text" placeholder="Enter your email" required name="email">
+                  </div>
+                  <div class="input-box">
+                    <span class="details">Phone Number</span>
+                    <input type="text" placeholder="Enter your number" required name="number">
+                  </div>
+                  <div class="input-box">
+                    <span class="details">Password</span>
+                    <input type="password" placeholder="Enter your password" required name="password">
+                  </div>
+                  <div class="input-box">
+                    <span class="details">Confirm Password</span>
+                    <input type="password" placeholder="Confirm your password" required name="con-password">
+                  </div>
+                </div>
+                <div class="gender-details">
+                  <input type="radio" name="gender" id="dot-1">
+                  <input type="radio" name="gender" id="dot-2">
+                  <input type="radio" name="gender" id="dot-3">
+                  <span class="gender-title">Gender</span>
+                  <div class="category">
+                    <label for="dot-1">
+                    <span class="dot one"></span>
+                    <span class="gender">Male</span>
+                  </label>
+                  <label for="dot-2">
+                    <span class="dot two"></span>
+                    <span class="gender">Female</span>
+                  </label>
+                  <label for="dot-3">
+                    <span class="dot three"></span>
+                    <span class="gender">Prefer not to say</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="button">
+                  <input type="submit" value="Register" name="submit">
+                </div>
+              </form>
+            </div>
+          </div>
+    </section>
+  
+    <section class="footer-basic">
+        <footer>
+            <div class="social">
+                <a href=""><i class="fa-brands fa-facebook fa-flip"></i></a>
+                <a href=""><i class="fa-brands fa-instagram fa-flip"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin fa-flip"></i></a>
+                <a href=""><i class="fa-brands fa-youtube fa-flip"></i></a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">EasyDoctor © 2023</p>
+        </footer>
+    </section>
+    <script src="https://kit.fontawesome.com/d6cdd38d7b.js" crossorigin="anonymous"></script>
+</body>
+</html>
